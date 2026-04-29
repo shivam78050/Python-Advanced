@@ -10,5 +10,5 @@ def power_set(nums):
     return result
 # Example usage
 input_nums = [1, 2, 3]
-print(power_set(input_nums))  # Output: [[], [1], [1, 2], [1, 2, 3], [2], [2, 3], [3]]  
+print(power_set(input_nums)) 
 
