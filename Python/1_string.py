@@ -5,4 +5,4 @@ def reverse_words(sentence):
 
 input_sentence = "Hello World"
 reversed_sentence = reverse_words(input_sentence)
-print(reversed_sentence)  # Output: "olleH dlroW"
+print(reversed_sentence)  
