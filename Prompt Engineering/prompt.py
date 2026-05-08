@@ -15,7 +15,7 @@ expected_output = [
     (f, n, "Declined", "INQUIRIES")
     for f, n in itertools.product(fico_values, inq_values)
 ]
-
+##########
 print("EXPECTED OUTPUT:\n")
 
 for row in expected_output:
