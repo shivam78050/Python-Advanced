@@ -10,7 +10,7 @@ load_dotenv()
 # Gemini model
 model = ChatGoogleGenerativeAI(
     model="gemini-2.5-flash",
-    google_api_key="AIzaSyCNZDAuuh5y1l29Q70fV9BLOA51JPLR97Y"
+    google_api_key=os.getenv("GOOGLE_API_KEY")
 )
 
 # Prompt
